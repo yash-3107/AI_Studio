@@ -4,10 +4,16 @@
 @endsection
 @section('content')
     <!-- Start::page-header -->
-    <div class="d-flex align-items-center justify-content-between my-3 page-header-breadcrumb flex-wrap gap-2">
+    <div id="parent-main">
         
     </div>
     <!-- End::page-header -->
 
 
 @endsection
+@push('script')
+<script src="{{asset('assets/js/app_studio.js')}}" defer></script>
+@endpush
+@push('styles')
+<link href="{{ asset('assets/css/app_studio.css') }}" rel="stylesheet">
+@endpush

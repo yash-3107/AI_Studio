@@ -9,7 +9,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> @yield('title') </title>
+    
     <!-- Favicon -->
+     @stack('styles')
     <link rel="icon" href="{{ asset('assets/myimages/credit-report-bg.svg') }}" type="image/x-icon">
 
     <!-- Choices JS -->
@@ -703,6 +705,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
     @stack('script')
 
 </body>
