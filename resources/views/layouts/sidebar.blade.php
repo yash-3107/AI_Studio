@@ -118,37 +118,37 @@
                         <li class="slide">
                             <a href="" class="side-menu__item">Overview</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_apps">
                             <a href="" class="side-menu__item">Apps</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_deployments">
                             <a href="" class="side-menu__item">App Deployments</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_observability">
                             <a href="" class="side-menu__item">Observability</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_manage_users">
                             <a href="" class="side-menu__item">Manage Users</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_file_manager">
                             <a href="" class="side-menu__item">File Manager</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_audit_trail">
                             <a href="" class="side-menu__item">Audit Trail</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_key_vault">
                             <a href="" class="side-menu__item">Key Vault</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_support">
                             <a href="" class="side-menu__item">Support</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_subscription_plans">
                             <a href="" class="side-menu__item">Subscription Plans</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_billing">
                             <a href="" class="side-menu__item">Billing</a>
                         </li>
-                        <li class="slide">
+                        <li class="slide" id="app_studio_faqs">
                             <a href="" class="side-menu__item">FAQs</a>
                         </li>
                     </ul>
