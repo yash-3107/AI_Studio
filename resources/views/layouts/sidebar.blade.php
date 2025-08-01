@@ -75,7 +75,7 @@
                     <span class="side-menu__label">My Dashboard</span>
                 </a>
             </li>
-            <li class="slide has-sub">
+            <li class="slide has-sub" id="agent_studio">
                 <a href="javascript:void(0);" class="side-menu__item">
                     <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" width="1em" height="1em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -86,24 +86,29 @@
                     <i class="ri-arrow-down-s-line side-menu__angle"></i>
                 </a>
                 <ul class="slide-menu child1">
-                    <li class="slide">
-                        <a href="" class="side-menu__item">Manage Roles</a>
+                    <li class="slide"><a href="" class="side-menu__item" id="overview">Overview</a></li>
+                    <li class=" slide"><a href="" class="side-menu__item" id="projects">Projects</a></li>
+                    <li class=" slide"><a href="" class="side-menu__item" id="components">Components</a></li>
+                    <li class=" slide"><a href="" class="side-menu__item" id="flow_deployment">Flow Deployment</a></li>
+                    <li class=" slide"><a href="" class="side-menu__item" id="component_deployment">Comp. Deployment</a></li>
+                    <li class="slide"><a href="" class="side-menu__item" id="observability">Observability</a></li>
+                    <li class="slide"><a href="" class="side-menu__item" id="manage_users">Manage Users</a></li>
+                    <li class=" slide"><a href="" class="side-menu__item" id="file_manager">File Manager</a></li>
+                    <li class="slide"><a href="" class="side-menu__item" id="audit_trail">Audit Trail</a></li>
+                    <li class="slide"><a href="" class="side-menu__item" id="key_vault">Key Vault</a></li>
+                    <li class="slide"><a href="" class="side-menu__item" id="support">Support</a></li>
+                    <li class=" slide"><a href="" class="side-menu__item" id="subscription_plans">Subscription Plans</a></li>
+                    <li class="slide"><a href="" class="side-menu__item" id="billing">Billing</a>
                     </li>
-                    <li class="slide">
-                        <a href="" class="side-menu__item">Manage
-                            Permissions</a>
-                    </li>
-                    <li class="slide">
-                        <a href="" class="side-menu__item">Assign
-                            Roles & Permissions</a>
-                    </li>
+                    <li class="slide"><a href="" class="side-menu__item" id="faqs">FAQs</a></li>
                 </ul>
             </li>
+
             <li class="slide has-sub" id="app_studio">
                 <a href="javascript:void(0);" class="side-menu__item">
                     <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" width="1em" height="1em" viewBox="0 0 24 24">
                         <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                            d="M2 18c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C3.689 14 4.46 14 6 14s2.31 0 2.876.347c.317.194.583.46.777.777C10 15.689 10 16.46 10 18s0 2.31-.347 2.877c-.194.316-.46.582-.777.776C8.311 22 7.54 22 6 22s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.776C2 20.31 2 19.54 2 18m12 0c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C15.689 14 16.46 14 18 14s2.31 0 2.877.347c.316.194.582.46.776.777C22 15.689 22 16.46 22 18s0 2.31-.347 2.877a2.36 2.36 0 0 1-.776.776C20.31 22 19.54 22 18 22s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.776C14 20.31 14 19.54 14 18M2 6c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C3.689 2 4.46 2 6 2s2.31 0 2.876.347c.317.194.583.46.777.777C10 3.689 10 4.46 10 6s0 2.31-.347 2.876c-.194.317-.46.583-.777.777C8.311 10 7.54 10 6 10s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.777C2 8.311 2 7.54 2 6m12 0c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C15.689 2 16.46 2 18 2s2.31 0 2.877.347c.316.194.582.46.776.777C22 3.689 22 4.46 22 6s0 2.31-.347 2.876c-.194.317-.46.583-.776.777C20.31 10 19.54 10 18 10s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.777C14 8.311 14 7.54 14 6"
+                            d="M2 18c0-1.54 0-2.31.347-2.876c.194-.3=17.46-.583.777-.777C3.689 14 4.46 14 6 14s2.31 0 2.876.347c.317.194.583.46.777.777C10 15.689 10 16.46 10 18s0 2.31-.347 2.877c-.194.316-.46.582-.777.776C8.311 22 7.54 22 6 22s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.776C2 20.31 2 19.54 2 18m12 0c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C15.689 14 16.46 14 18 14s2.31 0 2.877.347c.316.194.582.46.776.777C22 15.689 22 16.46 22 18s0 2.31-.347 2.877a2.36 2.36 0 0 1-.776.776C20.31 22 19.54 22 18 22s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.776C14 20.31 14 19.54 14 18M2 6c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C3.689 2 4.46 2 6 2s2.31 0 2.876.347c.317.194.583.46.777.777C10 3.689 10 4.46 10 6s0 2.31-.347 2.876c-.194.317-.46.583-.777.777C8.311 10 7.54 10 6 10s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.777C2 8.311 2 7.54 2 6m12 0c0-1.54 0-2.31.347-2.876c.194-.317.46-.583.777-.777C15.689 2 16.46 2 18 2s2.31 0 2.877.347c.316.194.582.46.776.777C22 3.689 22 4.46 22 6s0 2.31-.347 2.876c-.194.317-.46.583-.776.777C20.31 10 19.54 10 18 10s-2.31 0-2.876-.347a2.35 2.35 0 0 1-.777-.777C14 8.311 14 7.54 14 6"
                             color="currentColor" />
                     </svg>
                     <span class="side-menu__label">App Studio</span>
