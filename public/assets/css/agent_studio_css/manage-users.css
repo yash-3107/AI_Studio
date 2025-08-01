@@ -1,0 +1,358 @@
+/* Manage Users Styles */
+.manage-users-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8fafc;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #6b7280;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Tabs Section */
+.tabs-section {
+  margin-bottom: 2rem;
+}
+
+.tabs-container {
+  display: flex;
+  background-color: #e5e7eb;
+  border-radius: 12px;
+  padding: 4px;
+  width: fit-content;
+  gap: 2px;
+}
+
+.tab-button {
+  padding: 12px 24px;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  position: relative;
+}
+
+.tab-button:hover {
+  color: #374151;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tab-button.active {
+  background-color: #ffffff;
+  color: #1f2937;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Locked tab styling */
+.tab-button[data-tab="users"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+  position: relative;
+}
+
+.tab-button[data-tab="users"]:hover {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #dc2626;
+}
+
+.tab-button[data-tab="users"]::after {
+  content: '🔒';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  font-size: 12px;
+  background-color: #ef4444;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui;
+}
+
+/* Content Section */
+.content-section {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 4rem 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Subscription Lock */
+.subscription-lock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.lock-icon {
+  margin-bottom: 2rem;
+  color: #9ca3af;
+  opacity: 0.7;
+  animation: subtle-pulse 3s ease-in-out infinite;
+}
+
+.lock-icon svg {
+  width: 64px;
+  height: 64px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.lock-content {
+  width: 100%;
+}
+
+.lock-message {
+  font-size: 1.125rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Animations */
+@keyframes subtle-pulse {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+}
+
+/* Hover effect for the entire lock area */
+.subscription-lock:hover .lock-icon {
+  color: #ef4444;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.subscription-lock:hover .lock-message {
+  color: #374151;
+  transition: all 0.3s ease;
+}
+
+/* Add a subtle background pattern */
+.content-section {
+  background-image:
+    radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(239, 68, 68, 0.02) 0%, transparent 50%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .manage-users-container {
+    padding: 1rem;
+  }
+
+  .header-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header-section {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-title {
+    font-size: 1.75rem;
+  }
+
+  .content-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .lock-icon svg {
+    width: 56px;
+    height: 56px;
+  }
+
+  .lock-message {
+    font-size: 1rem;
+  }
+
+  .tabs-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .tab-button {
+    flex: 1;
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .manage-users-container {
+    padding: 0.75rem;
+  }
+
+  .header-title {
+    font-size: 1.5rem;
+  }
+
+  .content-section {
+    padding: 2rem 1rem;
+  }
+
+  .lock-icon {
+    margin-bottom: 1.5rem;
+  }
+
+  .lock-icon svg {
+    width: 48px;
+    height: 48px;
+  }
+
+  .lock-message {
+    font-size: 0.95rem;
+  }
+
+  .tab-button {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  .tab-button[data-tab="users"]::after {
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    top: -6px;
+    right: -6px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .manage-users-container {
+    background-color: #111827;
+  }
+
+  .header-title {
+    color: #f9fafb;
+  }
+
+  .content-section,
+  .header-icon {
+    background-color: #1f2937;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .lock-message {
+    color: #d1d5db;
+  }
+
+  .lock-icon {
+    color: #6b7280;
+  }
+
+  .subscription-lock:hover .lock-message {
+    color: #f3f4f6;
+  }
+
+  .subscription-lock:hover .lock-icon {
+    color: #ef4444;
+  }
+
+  .tab-button {
+    color: #d1d5db;
+  }
+
+  .tab-button:hover {
+    color: #f9fafb;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .tab-button.active {
+    background-color: #374151;
+    color: #f9fafb;
+  }
+
+  .tabs-container {
+    background-color: #374151;
+  }
+
+  .tab-button[data-tab="users"]:hover {
+    background-color: rgba(239, 68, 68, 0.2);
+    color: #fca5a5;
+  }
+
+  .content-section {
+    background-image:
+      radial-gradient(circle at 25% 25%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, rgba(239, 68, 68, 0.05) 0%, transparent 50%);
+  }
+}
+
+/* Focus states for accessibility */
+.tab-button:focus {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+.tab-button[data-tab="users"]:focus {
+  outline-color: #ef4444;
+}
+
+/* Additional premium feel */
+.content-section {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-section {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
