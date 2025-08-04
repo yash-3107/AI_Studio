@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="content-section">
+  <div class="component-deployment-content-section ">
     <h2 class="section-title">Deployed Components</h2>
 
     <div class="empty-state">
@@ -82,10 +82,10 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-$(document).ready(function() {
-  $('.tab-button').on('click', function() {
-    $('.tab-button').removeClass('active');
-    $(this).addClass('active');
+  $(document).ready(function() {
+    $('.tab-button').on('click', function() {
+      $('.tab-button').removeClass('active');
+      $(this).addClass('active');
+    });
   });
-});
 </script>

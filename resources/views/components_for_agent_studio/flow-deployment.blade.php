@@ -1,7 +1,7 @@
 <div class="flow-deployment-page">
-  <div class="container">
+  <div class="flow_deployemnt-container">
     <!-- Header Section -->
-    <div class="header-section">
+    <div class=" header-section">
       <div class="header-content">
         <div class="header-left">
           <svg class="header-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,7 +82,7 @@
     </div>
 
     <!-- Content Section -->
-    <div class="content-section">
+    <div class="content-deployment-content-section">
       <h2 class="content-title">Deployed projects</h2>
 
       <!-- Empty State -->

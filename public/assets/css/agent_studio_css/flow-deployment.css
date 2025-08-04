@@ -12,8 +12,7 @@
   padding: 2rem 0;
 }
 
-/* Container */
-.container {
+.flow_deployemnt-container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -173,7 +172,7 @@
 }
 
 /* Content Section */
-.content-section {
+.content-deployment-content-section {
   margin-bottom: 2rem;
 }
 

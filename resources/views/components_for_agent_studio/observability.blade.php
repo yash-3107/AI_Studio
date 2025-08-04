@@ -33,7 +33,7 @@
     </div>
   </div>
 
-  <div class="content-section">
+  <div class="observability-content-section">
     <div class="empty-state">
       <div class="empty-state-illustration">
         <div class="illustration-container">

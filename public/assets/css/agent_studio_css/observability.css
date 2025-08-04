@@ -81,7 +81,7 @@
 }
 
 /* Content Section */
-.content-section {
+.observability-content-section {
   background-color: #ffffff;
   border-radius: 16px;
   padding: 3rem 2rem;
@@ -539,7 +539,7 @@
     padding: 1rem;
   }
 
-  .content-section {
+  .observability-content-section {
     padding: 2rem 1rem;
   }
 
@@ -575,7 +575,7 @@
     padding: 0.75rem;
   }
 
-  .content-section {
+  .observability-content-section {
     padding: 1.5rem 0.75rem;
   }
 
@@ -609,7 +609,7 @@
     background-color: #111827;
   }
 
-  .content-section {
+  .observability-content-section {
     background-color: #1f2937;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   }

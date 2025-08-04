@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="content-section">
+  <div class="manage-users-content-section">
     <div class="subscription-lock">
       <div class="lock-icon">
         <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
