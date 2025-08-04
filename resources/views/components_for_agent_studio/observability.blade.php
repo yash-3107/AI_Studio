@@ -34,8 +34,8 @@
   </div>
 
   <div class="observability-content-section">
-    <div class="empty-state">
-      <div class="empty-state-illustration">
+    <div class="observability-empty-state">
+      <div class="observability-empty-state-illustration">
         <div class="illustration-container">
           <!-- Background circle -->
           <div class="bg-circle"></div>

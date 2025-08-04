@@ -28,8 +28,8 @@
   <div class="component-deployment-content-section ">
     <h2 class="section-title">Deployed Components</h2>
 
-    <div class="empty-state">
-      <div class="empty-state-illustration">
+    <div class="component-deployment-empty-state">
+      <div class="component-deployment-empty-state-illustration">
         <div class="illustration-container">
           <!-- Developer sitting with laptop -->
           <div class="developer-sitting">

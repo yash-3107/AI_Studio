@@ -31,7 +31,7 @@ Dashboard Main Page
 <link href="{{ asset('assets/css/agent_studio_css/subscription-plans.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/agent_studio_css/billing.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/agent_studio_css/faqs.css') }}" rel="stylesheet">
-<!-- <link href="{{ asset('assets/css/app_studio.css') }}" rel="stylesheet"> -->
+<link href="{{ asset('assets/css/app_studio.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/css_app_studio/apps.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/css_app_studio/deployments.css') }}" rel="stylesheet">
 <link href="{{ asset('assets/css/css_app_studio/observability.css') }}" rel="stylesheet">

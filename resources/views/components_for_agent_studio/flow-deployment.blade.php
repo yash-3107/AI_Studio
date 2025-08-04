@@ -86,8 +86,8 @@
       <h2 class="content-title">Deployed projects</h2>
 
       <!-- Empty State -->
-      <div class="empty-state">
-        <div class="empty-state-content">
+      <div class="flow-deployment-empty-state">
+        <div class="flow-deployment-empty-state-content">
           <!-- Illustration -->
           <div class="illustration">
             <svg class="illustration-svg" viewBox="0 0 500 400" fill="none">

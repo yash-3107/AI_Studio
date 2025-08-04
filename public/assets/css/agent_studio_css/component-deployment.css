@@ -94,7 +94,7 @@
 }
 
 /* Empty State */
-.empty-state {
+.component-deployment-empty-state {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,7 +102,7 @@
   padding: 3rem 1rem;
 }
 
-.empty-state-illustration {
+.component-deployment-empty-state-illustration {
   margin-bottom: 2rem;
 }
 

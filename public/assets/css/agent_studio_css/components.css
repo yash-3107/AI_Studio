@@ -177,12 +177,12 @@
 }
 
 /* Empty State Styles */
-.empty-state {
+.components-empty-state {
   text-align: center;
   padding: 4rem 2rem;
 }
 
-.empty-state-content {
+.components-empty-state-content {
   max-width: 32rem;
   margin: 0 auto;
 }

@@ -89,7 +89,7 @@
 }
 
 /* Empty State */
-.empty-state {
+.observability-empty-state {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +97,7 @@
   padding: 2rem 1rem;
 }
 
-.empty-state-illustration {
+.observability-empty-state-illustration {
   margin-bottom: 3rem;
 }
 

@@ -301,8 +301,8 @@
       <h2 class="section-title">Recently Updated components</h2>
 
       <!-- Empty State -->
-      <div class="empty-state">
-        <div class="empty-state-content">
+      <div class="components-empty-state">
+        <div class="components-empty-state-content">
           <!-- Illustration -->
           <div class="illustration">
             <svg class="illustration-svg" viewBox="0 0 400 300" fill="none">

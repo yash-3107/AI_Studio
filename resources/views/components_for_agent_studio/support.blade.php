@@ -97,8 +97,8 @@
       <h3 class="tickets-title">All Tickets</h3>
 
       @if(($totalTickets ?? 0) == 0)
-      <div class="empty-state">
-        <div class="empty-illustration">
+      <div class="support-empty-state">
+        <div class="support-empty-illustration">
           <div class="illustration-container">
             <div class="person-avatar">
               <div class="person-face">

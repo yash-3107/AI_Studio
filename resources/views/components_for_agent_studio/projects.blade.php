@@ -104,15 +104,15 @@
     </div>
 
     <!-- My Projects Section -->
-    <div class="section">
+    <div class="project-section">
       <h2 class="section-title">My Projects</h2>
 
       <!-- Empty State -->
-      <div class="empty-state">
-        <div class="empty-state-content">
+      <div class="projects-empty-state">
+        <div class="projects-empty-state-content">
           <!-- Illustration -->
-          <div class="illustration">
-            <svg class="illustration-svg" viewBox="0 0 320 240" fill="none">
+          <div class="projects-illustration">
+            <svg class="projects-illustration-svg" viewBox="0 0 320 240" fill="none">
               <!-- Background elements -->
               <rect x="40" y="80" width="80" height="60" rx="8" fill="#DBEAFE" stroke="#93C5FD" stroke-width="2" />
               <rect x="50" y="90" width="60" height="8" rx="4" fill="#60A5FA" />

@@ -140,22 +140,22 @@
 }
 
 /* Empty State Styles */
-.empty-state {
+.projects-empty-state {
   text-align: center;
   padding: 4rem 0;
 }
 
-.empty-state-content {
+.projects-empty-state-content {
   max-width: 28rem;
   margin: 0 auto;
 }
 
-.illustration {
+.projects-illustration {
   margin-bottom: 2rem;
   position: relative;
 }
 
-.illustration-svg {
+.projects-illustration-svg {
   width: 16rem;
   height: 12rem;
   margin: 0 auto;
@@ -289,9 +289,10 @@
       font-size: 1.25rem;
   }
   
-  .section {
+  .project-section {
       padding: 1.5rem 0;
       margin-bottom: 2rem;
+
   }
   
   .section-title {

@@ -139,7 +139,7 @@
 }
 
 /* Empty State */
-.empty-state {
+.support-empty-state {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,7 +147,7 @@
   padding: 3rem 1rem;
 }
 
-.empty-illustration {
+.support-empty-illustration {
   margin-bottom: 2rem;
 }
 
@@ -406,7 +406,7 @@
     padding: 1rem;
   }
 
-  .empty-state {
+  .support-empty-state {
     padding: 2rem 0.5rem;
   }
 
